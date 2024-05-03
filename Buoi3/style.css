@@ -1,0 +1,234 @@
+.header{
+    background-color: white;
+
+}
+.header .container .header_logo{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+}
+.header .container .header_logo .logo{
+    background-color: black;
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.header .container .header_logo i{
+    color: rgb(253, 201, 1);
+    font-size: 1em; /* Adjust size as needed */
+}
+.header .container .header_content{
+    padding-left: 80px;
+}
+.header .container .header_content nav{
+    display: flex;
+}
+.header .container .header_content nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+} 
+
+.header .container .header_content nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+} 
+
+.carousel{
+    background-image: url(./img/2.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0px;
+}
+.welcome{
+    display: flex;
+    margin: auto;
+    width: 75%;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.welcome .welcome_content1 h1{
+    margin-top: 10px;
+}
+.welcome .welcome_content1 p{
+    margin-right: 120px;
+}
+.welcome .welcome_content1 button{
+    background-color: rgb(253, 201, 1);
+    width: 100px;
+    height: 50px;
+}
+.welcome .welcome_content2 img{
+    padding-right: 80px;
+}
+.infor{
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.infor .infor_items{
+    display: flex;   
+}
+.infor .infor_items h1{
+    margin-right: 20px;
+    font-size: 40px;
+}
+.infor .infor_items p{
+    margin-top: 30px;
+}
+.services{
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.services button{
+    background-color: rgb(0, 33, 70);
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    min-height: 100px;
+    min-width: 150px; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+}
+.services .service1 .service_items1 button i{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.services .service2 .service_items2 button i{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.services .service1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.services .service2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.news {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    background-color: rgb(246, 246, 246);
+}
+.news .news_items{
+    background-color: white;
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    min-width: 100px; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+.news .news_items img{
+    max-width: 170px;
+    max-height: 150px;
+}
+
+.news .news_items .news_info{
+    margin-left: 20px;
+    text-align: left;
+}
+
+.news .news_items .news_info p span{
+    color: gray;   
+}
+.news .news_items
+{
+    box-sizing: border-box;
+}
+.news .news_items .card {
+    width: 80px;
+    text-align: center;
+}
+.news .news_items .card__top {
+    background-color: rgb(253, 201, 1);
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+.news .news_items .card__bottom {
+    background-color: rgb(0, 33, 70);
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
+    color: white;
+}
+.news .upcoming_events{
+    width: 450px;
+    height: 100px;
+    padding-right: 100px;
+}
+.news .lastest_posts{
+    padding-left: 100px;
+}
+.news .lastest_posts .view_all{
+    text-align: right;
+}
+.news .upcoming_events .view_all{
+    text-align: right;
+}
+.news .upcoming_events button{
+    background-color: rgb(253, 201, 1);
+    width: 100px;
+    height: 50px;
+
+}
+.news .lastest_posts button{
+    background-color: rgb(253, 201, 1);
+    width: 100px;
+    height: 50px;
+}
+.news .news_items .news_info .time_location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 33, 70);
+    padding-left: 60px;
+    padding-right: 600px;
+}
+.footer h3{
+    text-align: left;
+    color: white;
+    margin-left: 60px;
+}
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+} 
+.footer ul li {
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+} 
+.footer ul li i{
+    color:rgb(253, 201, 1);
+}
